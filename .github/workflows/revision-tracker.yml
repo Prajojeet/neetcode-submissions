@@ -1,0 +1,41 @@
+name: Update revision tracker
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["REVISION.md"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: revision-tracker
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild REVISION.md
+        run: python3 .github/revision/build_revision.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add REVISION.md
+          if git diff --cached --quiet; then
+            echo "Tracker already up to date"
+            exit 0
+          fi
+          git commit -m "Update revision tracker"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
