@@ -2,11 +2,11 @@
 
 Re-solving all 101 problems I'd solved before 26 Nov 2026. A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
 
-**Overall: 3 / 101** &nbsp; `█░░░░░░░░░░░░░░░░░░░` &nbsp; 3%
+**Overall: 4 / 101** &nbsp; `█░░░░░░░░░░░░░░░░░░░` &nbsp; 4%
 
 | Day | Focus | Progress |
 |---|---|---|
-| [Day 1](#day-1) | Blind 75 core: the most-asked interview problems | 2 / 36 `█░░░░░░░░░` |
+| [Day 1](#day-1) | Blind 75 core: the most-asked interview problems | 3 / 36 `█░░░░░░░░░` |
 | [Day 2](#day-2) | Rest of NeetCode 150 plus high-frequency extras | 1 / 34 `░░░░░░░░░░` |
 | [Day 3](#day-3) | Less common ones, quick easies, then rare hards last | 0 / 31 `░░░░░░░░░░` |
 
@@ -14,7 +14,7 @@ Re-solving all 101 problems I'd solved before 26 Nov 2026. A box ticks itself wh
 
 ## Day 1
 
-_Blind 75 core: the most-asked interview problems_ · **2 / 36** done
+_Blind 75 core: the most-asked interview problems_ · **3 / 36** done
 
 | | # | Problem | Topic | Difficulty | Revised on | Code |
 |:-:|--:|---|---|---|---|---|
@@ -32,7 +32,7 @@ _Blind 75 core: the most-asked interview problems_ · **2 / 36** done
 | ⬜ | 12 | [Same Tree](https://neetcode.io/problems/same-binary-tree) | Trees | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/same-binary-tree/submission-0.py) |
 | ⬜ | 13 | [Two Sum](https://neetcode.io/problems/two-integer-sum) | Arrays & Hashing | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/two-integer-sum/submission-3.py) |
 | ⬜ | 14 | [Subtree of Another Tree](https://neetcode.io/problems/subtree-of-a-binary-tree) | Trees | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/subtree-of-a-binary-tree/submission-1.py) |
-| ⬜ | 15 | [Group Anagrams](https://neetcode.io/problems/anagram-groups) | Arrays & Hashing | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/anagram-groups/submission-3.py) |
+| ✅ | 15 | **[Group Anagrams](https://neetcode.io/problems/anagram-groups)** | Arrays & Hashing | 🟡 Medium | 26 Nov, 05:27 | [old](Data%20Structures%20%26%20Algorithms/anagram-groups/submission-3.py) · [new](Data%20Structures%20%26%20Algorithms/anagram-groups/submission-4.py) |
 | ⬜ | 16 | [3Sum](https://neetcode.io/problems/three-integer-sum) | Two Pointers | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/three-integer-sum/submission-3.py) |
 | ⬜ | 17 | [Valid Parentheses](https://neetcode.io/problems/validate-parentheses) | Stack | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/validate-parentheses/submission-6.py) |
 | ⬜ | 18 | [Reverse Linked List](https://neetcode.io/problems/reverse-a-linked-list) | Linked List | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/reverse-a-linked-list/submission-0.py) |
@@ -138,7 +138,7 @@ _Less common ones, quick easies, then rare hards last_ · **0 / 31** done
 
 | Topic | Revised |
 |---|---|
-| Arrays & Hashing | 0 / 15 `░░░░░░░░░░` |
+| Arrays & Hashing | 1 / 15 `█░░░░░░░░░` |
 | Two Pointers | 0 / 9 `░░░░░░░░░░` |
 | Sliding Window | 0 / 6 `░░░░░░░░░░` |
 | Stack | 1 / 9 `█░░░░░░░░░` |
