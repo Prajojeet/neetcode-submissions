@@ -2,25 +2,25 @@
 
 152 problems: 101 I'd solved before 26 Nov 2026 to revise, plus 51 important NeetCode 150 Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
 
-**Overall: 4 / 152** &nbsp; `█░░░░░░░░░░░░░░░░░░░` &nbsp; 3%
+**Overall: 5 / 152** &nbsp; `█░░░░░░░░░░░░░░░░░░░` &nbsp; 3%
 
 | Day | Focus | Progress |
 |---|---|---|
-| [Day 1](#day-1) | Blind 75, part 1: most-asked interview problems (revise + new) | 2 / 30 `█░░░░░░░░░` |
+| [Day 1](#day-1) | Blind 75, part 1: most-asked interview problems (revise + new) | 3 / 30 `█░░░░░░░░░` |
 | [Day 2](#day-2) | Blind 75, part 2 | 1 / 30 `░░░░░░░░░░` |
 | [Day 3](#day-3) | Rest of NeetCode 150, part 1 (revise + new Mediums) | 0 / 31 `░░░░░░░░░░` |
 | [Day 4](#day-4) | Rest of NeetCode 150, part 2 | 1 / 30 `░░░░░░░░░░` |
 | [Day 5](#day-5) | Less common ones, quick easies, then rare hards last | 0 / 31 `░░░░░░░░░░` |
 
-**Up next:** [Invert Binary Tree](https://neetcode.io/problems/invert-a-binary-tree) · Trees · Easy (Day 1)
+**Up next:** [Climbing Stairs](https://neetcode.io/problems/climbing-stairs) · 1-D Dynamic Programming · Easy (Day 1)
 
 ## Day 1
 
-_Blind 75, part 1: most-asked interview problems (revise + new)_ · **2 / 30** done
+_Blind 75, part 1: most-asked interview problems (revise + new)_ · **3 / 30** done
 
 | | # | Problem | Topic | Difficulty | Done on | Code |
 |:-:|--:|---|---|---|---|---|
-| ⬜ | 1 | [Invert Binary Tree](https://neetcode.io/problems/invert-a-binary-tree) | Trees | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/invert-a-binary-tree/submission-0.py) |
+| ✅ | 1 | **[Invert Binary Tree](https://neetcode.io/problems/invert-a-binary-tree)** | Trees | 🟢 Easy | 26 Nov, 05:39 | [old](Data%20Structures%20%26%20Algorithms/invert-a-binary-tree/submission-0.py) · [new](Data%20Structures%20%26%20Algorithms/invert-a-binary-tree/submission-1.py) |
 | ⬜ | 2 | [Climbing Stairs](https://neetcode.io/problems/climbing-stairs) | 1-D Dynamic Programming | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/climbing-stairs/submission-1.py) |
 | ⬜ | 3 | [Contains Duplicate](https://neetcode.io/problems/duplicate-integer) | Arrays & Hashing | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/duplicate-integer/submission-1.py) |
 | ⬜ | 4 | [Number of Islands](https://neetcode.io/problems/count-number-of-islands) | Graphs | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/count-number-of-islands/submission-2.py) |
@@ -211,7 +211,7 @@ _Less common ones, quick easies, then rare hards last_ · **0 / 31** done
 | Stack | 1 / 10 `█░░░░░░░░░` |
 | Binary Search | 1 / 10 `█░░░░░░░░░` |
 | Linked List | 0 / 7 `░░░░░░░░░░` |
-| Trees | 1 / 18 `█░░░░░░░░░` |
+| Trees | 2 / 18 `█░░░░░░░░░` |
 | Heap / Priority Queue | 0 / 5 `░░░░░░░░░░` |
 | Backtracking | 0 / 11 `░░░░░░░░░░` |
 | Tries | 0 / 2 `░░░░░░░░░░` |
