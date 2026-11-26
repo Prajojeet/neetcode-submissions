@@ -1,6 +1,6 @@
 # 🔁 NeetCode Revision Tracker
 
-Re-solving all 101 problems I'd solved before 26 Nov 2026. A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
+101 problems: 101 I'd solved before 26 Nov 2026 to revise, plus 0 important NeetCode 150 Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
 
 **Overall: 4 / 101** &nbsp; `█░░░░░░░░░░░░░░░░░░░` &nbsp; 4%
 
@@ -16,7 +16,7 @@ Re-solving all 101 problems I'd solved before 26 Nov 2026. A box ticks itself wh
 
 _Blind 75 core: the most-asked interview problems_ · **3 / 36** done
 
-| | # | Problem | Topic | Difficulty | Revised on | Code |
+| | # | Problem | Topic | Difficulty | Done on | Code |
 |:-:|--:|---|---|---|---|---|
 | ⬜ | 1 | [Invert Binary Tree](https://neetcode.io/problems/invert-a-binary-tree) | Trees | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/invert-a-binary-tree/submission-0.py) |
 | ⬜ | 2 | [Contains Duplicate](https://neetcode.io/problems/duplicate-integer) | Arrays & Hashing | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/duplicate-integer/submission-1.py) |
@@ -59,7 +59,7 @@ _Blind 75 core: the most-asked interview problems_ · **3 / 36** done
 
 _Rest of NeetCode 150 plus high-frequency extras_ · **1 / 34** done
 
-| | # | Problem | Topic | Difficulty | Revised on | Code |
+| | # | Problem | Topic | Difficulty | Done on | Code |
 |:-:|--:|---|---|---|---|---|
 | ⬜ | 37 | [Min Stack](https://neetcode.io/problems/minimum-stack) | Stack | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/minimum-stack/submission-0.py) |
 | ⬜ | 38 | [Max Area of Island](https://neetcode.io/problems/max-area-of-island) | Graphs | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/max-area-of-island/submission-0.py) |
@@ -100,7 +100,7 @@ _Rest of NeetCode 150 plus high-frequency extras_ · **1 / 34** done
 
 _Less common ones, quick easies, then rare hards last_ · **0 / 31** done
 
-| | # | Problem | Topic | Difficulty | Revised on | Code |
+| | # | Problem | Topic | Difficulty | Done on | Code |
 |:-:|--:|---|---|---|---|---|
 | ⬜ | 71 | [Sliding Window Maximum](https://neetcode.io/problems/sliding-window-maximum) | Sliding Window | 🔴 Hard |  | [old](Data%20Structures%20%26%20Algorithms/sliding-window-maximum/submission-6.py) |
 | ⬜ | 72 | [Best Time to Buy And Sell Stock II](https://neetcode.io/problems/best-time-to-buy-and-sell-stock-ii) | Arrays & Hashing | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/best-time-to-buy-and-sell-stock-ii/submission-5.py) |
@@ -136,7 +136,7 @@ _Less common ones, quick easies, then rare hards last_ · **0 / 31** done
 
 ## By topic
 
-| Topic | Revised |
+| Topic | Done |
 |---|---|
 | Arrays & Hashing | 1 / 15 `█░░░░░░░░░` |
 | Two Pointers | 0 / 9 `░░░░░░░░░░` |
