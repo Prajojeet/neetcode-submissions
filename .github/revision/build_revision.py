@@ -85,7 +85,7 @@ L.append("# 🔁 NeetCode Revision Tracker\n")
 n_new = sum(1 for r in rows if r.get("unsolved"))
 L.append(f"{total} problems: {total - n_new} I'd solved before "
          f"{start.astimezone(TZ).strftime('%d %b %Y')} to revise, plus {n_new} important "
-         "NeetCode 150 Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode "
+         "interview Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode "
          "syncs a new submission for that problem to this repo.\n")
 L.append(f"**Overall: {done_total} / {total}** &nbsp; `{bar(done_total, total)}` "
          f"&nbsp; {round(100 * done_total / total)}%\n")
@@ -136,10 +136,11 @@ extra = []
 for slug, commits in hist.items():
     if slug in planned:
         continue
-    first = min(c[0] for c in commits)
-    extra.append((first, slug))
+    recent = [c[0] for c in commits if not c[1] and c[0] >= start]
+    if recent:
+        extra.append((min(recent), slug))
 if extra:
-    L.append("## ➕ New problems solved since revision started\n")
+    L.append("## ➕ Other problems solved since revision started\n")
     L.append("| Problem | First solved |\n|---|---|")
     for first, slug in sorted(extra):
         L.append(f"| [{slug.replace('-', ' ').title()}](https://neetcode.io/problems/{slug}) | {fmt(first)} |")
