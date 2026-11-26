@@ -82,8 +82,10 @@ total = len(rows)
 
 L = []
 L.append("# 🔁 NeetCode Revision Tracker\n")
-L.append(f"Re-solving all {total} problems I'd solved before "
-         f"{start.astimezone(TZ).strftime('%d %b %Y')}. A box ticks itself when NeetCode "
+n_new = sum(1 for r in rows if r.get("unsolved"))
+L.append(f"{total} problems: {total - n_new} I'd solved before "
+         f"{start.astimezone(TZ).strftime('%d %b %Y')} to revise, plus {n_new} important "
+         "NeetCode 150 Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode "
          "syncs a new submission for that problem to this repo.\n")
 L.append(f"**Overall: {done_total} / {total}** &nbsp; `{bar(done_total, total)}` "
          f"&nbsp; {round(100 * done_total / total)}%\n")
@@ -109,7 +111,7 @@ for d, focus in cfg["days"].items():
     dd = sum(r["done"] for r in dr)
     L.append(f"## Day {d}\n")
     L.append(f"_{focus}_ · **{dd} / {len(dr)}** done\n")
-    L.append("| | # | Problem | Topic | Difficulty | Revised on | Code |")
+    L.append("| | # | Problem | Topic | Difficulty | Done on | Code |")
     L.append("|:-:|--:|---|---|---|---|---|")
     for r in dr:
         n += 1
@@ -117,6 +119,8 @@ for d, focus in cfg["days"].items():
         title = f"[{r['title']}](https://neetcode.io/problems/{r['slug']})"
         if r["done"]:
             title = f"**{title}**"
+        if r.get("unsolved"):
+            title += " 🆕"
         when = fmt(r["first"]) + (f" (×{r['times']})" if r["times"] > 1 else "") if r["done"] else ""
         code = []
         if r["old"]:
@@ -142,7 +146,7 @@ if extra:
     L.append("")
 
 L.append("## By topic\n")
-L.append("| Topic | Revised |\n|---|---|")
+L.append("| Topic | Done |\n|---|---|")
 topics = []
 for r in rows:
     if r["topic"] not in topics:
