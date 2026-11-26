@@ -1,6 +1,6 @@
 # 🔁 NeetCode Revision Tracker
 
-152 problems: 101 I'd solved before 26 Nov 2026 to revise, plus 51 important NeetCode 150 Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
+152 problems: 101 I'd solved before 26 Nov 2026 to revise, plus 51 important interview Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
 
 **Overall: 5 / 152** &nbsp; `█░░░░░░░░░░░░░░░░░░░` &nbsp; 3%
 
