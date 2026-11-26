@@ -93,6 +93,12 @@ _Harder classics: finish the interview set_ · **2 / 20** done
 | ⬜ | 59 | [Construct Binary Tree From Preorder And Inorder Traversal](https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal) 🆕 | Trees | 🟡 Medium |  |  |
 | ⬜ | 60 | [Longest Increasing Subsequence](https://neetcode.io/problems/longest-increasing-subsequence) 🆕 | 1-D Dynamic Programming | 🟡 Medium |  |  |
 
+## ➕ Other problems solved since revision started
+
+| Problem | First solved |
+|---|---|
+| [Contains Duplicate Ii](https://neetcode.io/problems/contains-duplicate-ii) | 26 Nov, 06:03 |
+
 ## By topic
 
 | Topic | Done |
