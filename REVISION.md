@@ -2,13 +2,13 @@
 
 60 problems: 38 I'd solved before 26 Nov 2026 to revise, plus 22 important interview Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
 
-**Overall: 6 / 60** &nbsp; `██░░░░░░░░░░░░░░░░░░` &nbsp; 10%
+**Overall: 7 / 60** &nbsp; `██░░░░░░░░░░░░░░░░░░` &nbsp; 12%
 
 | Day | Focus | Progress |
 |---|---|---|
 | [Day 1](#day-1) | Core patterns: the first problem of each topic | 3 / 20 `██░░░░░░░░` |
 | [Day 2](#day-2) | Next layer: standard follow-ups in each topic | 1 / 20 `░░░░░░░░░░` |
-| [Day 3](#day-3) | Harder classics: finish the interview set | 2 / 20 `█░░░░░░░░░` |
+| [Day 3](#day-3) | Harder classics: finish the interview set | 3 / 20 `██░░░░░░░░` |
 
 **Up next:** [Contains Duplicate](https://neetcode.io/problems/duplicate-integer) · Arrays & Hashing · Easy (Day 1)
 
@@ -68,7 +68,7 @@ _Next layer: standard follow-ups in each topic_ · **1 / 20** done
 
 ## Day 3
 
-_Harder classics: finish the interview set_ · **2 / 20** done
+_Harder classics: finish the interview set_ · **3 / 20** done
 
 | | # | Problem | Topic | Difficulty | Done on | Code |
 |:-:|--:|---|---|---|---|---|
@@ -81,7 +81,7 @@ _Harder classics: finish the interview set_ · **2 / 20** done
 | ⬜ | 47 | [Longest Common Subsequence](https://neetcode.io/problems/longest-common-subsequence) | 2-D Dynamic Programming | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/longest-common-subsequence/submission-0.py) |
 | ⬜ | 48 | [Jump Game](https://neetcode.io/problems/jump-game) | Greedy | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/jump-game/submission-0.py) |
 | ⬜ | 49 | [Product of Array Except Self](https://neetcode.io/problems/products-of-array-discluding-self) | Arrays & Hashing | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/products-of-array-discluding-self/submission-4.py) |
-| ⬜ | 50 | [Container With Most Water](https://neetcode.io/problems/max-water-container) | Two Pointers | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/max-water-container/submission-7.py) |
+| ✅ | 50 | **[Container With Most Water](https://neetcode.io/problems/max-water-container)** | Two Pointers | 🟡 Medium | 26 Nov, 06:17 | [old](Data%20Structures%20%26%20Algorithms/max-water-container/submission-7.py) · [new](Data%20Structures%20%26%20Algorithms/max-water-container/submission-9.py) |
 | ✅ | 51 | **[Daily Temperatures](https://neetcode.io/problems/daily-temperatures)** | Stack | 🟡 Medium | 26 Nov, 04:39 | [old](Data%20Structures%20%26%20Algorithms/daily-temperatures/submission-1.py) · [new](Data%20Structures%20%26%20Algorithms/daily-temperatures/submission-2.py) |
 | ⬜ | 52 | [Kth Smallest Element In a Bst](https://neetcode.io/problems/kth-smallest-integer-in-bst) | Trees | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/kth-smallest-integer-in-bst/submission-1.py) |
 | ⬜ | 53 | [Word Break](https://neetcode.io/problems/word-break) 🆕 | 1-D Dynamic Programming | 🟡 Medium |  |  |
@@ -104,7 +104,7 @@ _Harder classics: finish the interview set_ · **2 / 20** done
 | Topic | Done |
 |---|---|
 | Arrays & Hashing | 1 / 7 `█░░░░░░░░░` |
-| Two Pointers | 0 / 3 `░░░░░░░░░░` |
+| Two Pointers | 1 / 3 `███░░░░░░░` |
 | Sliding Window | 0 / 2 `░░░░░░░░░░` |
 | Stack | 1 / 3 `███░░░░░░░` |
 | Binary Search | 1 / 2 `█████░░░░░` |
