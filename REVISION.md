@@ -98,6 +98,7 @@ _Harder classics: finish the interview set_ · **3 / 20** done
 | Problem | First solved |
 |---|---|
 | [Contains Duplicate Ii](https://neetcode.io/problems/contains-duplicate-ii) | 26 Nov, 06:03 |
+| [Best Time To Buy And Sell Stock Ii](https://neetcode.io/problems/best-time-to-buy-and-sell-stock-ii) | 28 Nov, 00:48 |
 
 ## By topic
 
