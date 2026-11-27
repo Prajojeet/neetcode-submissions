@@ -2,13 +2,13 @@
 
 60 problems: 38 I'd solved before 26 Nov 2026 to revise, plus 22 important interview Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
 
-**Overall: 8 / 60** &nbsp; `███░░░░░░░░░░░░░░░░░` &nbsp; 13%
+**Overall: 9 / 60** &nbsp; `███░░░░░░░░░░░░░░░░░` &nbsp; 15%
 
 | Day | Focus | Progress |
 |---|---|---|
 | [Day 1](#day-1) | Core patterns: the first problem of each topic | 4 / 20 `██░░░░░░░░` |
 | [Day 2](#day-2) | Next layer: standard follow-ups in each topic | 1 / 20 `░░░░░░░░░░` |
-| [Day 3](#day-3) | Harder classics: finish the interview set | 3 / 20 `██░░░░░░░░` |
+| [Day 3](#day-3) | Harder classics: finish the interview set | 4 / 20 `██░░░░░░░░` |
 
 **Up next:** [Contains Duplicate](https://neetcode.io/problems/duplicate-integer) · Arrays & Hashing · Easy (Day 1)
 
@@ -68,7 +68,7 @@ _Next layer: standard follow-ups in each topic_ · **1 / 20** done
 
 ## Day 3
 
-_Harder classics: finish the interview set_ · **3 / 20** done
+_Harder classics: finish the interview set_ · **4 / 20** done
 
 | | # | Problem | Topic | Difficulty | Done on | Code |
 |:-:|--:|---|---|---|---|---|
@@ -89,7 +89,7 @@ _Harder classics: finish the interview set_ · **3 / 20** done
 | ⬜ | 55 | [LRU Cache](https://neetcode.io/problems/lru-cache) 🆕 | Linked List | 🟡 Medium |  |  |
 | ⬜ | 56 | [Meeting Rooms II](https://neetcode.io/problems/meeting-schedule-ii) 🆕 | Intervals | 🟡 Medium |  |  |
 | ⬜ | 57 | [Graph Valid Tree](https://neetcode.io/problems/valid-tree) 🆕 | Graphs | 🟡 Medium |  |  |
-| ⬜ | 58 | [Longest Consecutive Sequence](https://neetcode.io/problems/longest-consecutive-sequence) | Arrays & Hashing | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence/submission-3.py) |
+| ✅ | 58 | **[Longest Consecutive Sequence](https://neetcode.io/problems/longest-consecutive-sequence)** | Arrays & Hashing | 🟡 Medium | 28 Nov, 00:55 | [old](Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence/submission-3.py) · [new](Data%20Structures%20%26%20Algorithms/longest-consecutive-sequence/submission-4.py) |
 | ⬜ | 59 | [Construct Binary Tree From Preorder And Inorder Traversal](https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal) 🆕 | Trees | 🟡 Medium |  |  |
 | ⬜ | 60 | [Longest Increasing Subsequence](https://neetcode.io/problems/longest-increasing-subsequence) 🆕 | 1-D Dynamic Programming | 🟡 Medium |  |  |
 
@@ -104,7 +104,7 @@ _Harder classics: finish the interview set_ · **3 / 20** done
 
 | Topic | Done |
 |---|---|
-| Arrays & Hashing | 1 / 7 `█░░░░░░░░░` |
+| Arrays & Hashing | 2 / 7 `███░░░░░░░` |
 | Two Pointers | 1 / 3 `███░░░░░░░` |
 | Sliding Window | 0 / 2 `░░░░░░░░░░` |
 | Stack | 1 / 3 `███░░░░░░░` |
