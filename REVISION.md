@@ -2,11 +2,11 @@
 
 60 problems: 38 I'd solved before 26 Nov 2026 to revise, plus 22 important interview Mediums I hadn't solved yet (🆕). A box ticks itself when NeetCode syncs a new submission for that problem to this repo.
 
-**Overall: 7 / 60** &nbsp; `██░░░░░░░░░░░░░░░░░░` &nbsp; 12%
+**Overall: 8 / 60** &nbsp; `███░░░░░░░░░░░░░░░░░` &nbsp; 13%
 
 | Day | Focus | Progress |
 |---|---|---|
-| [Day 1](#day-1) | Core patterns: the first problem of each topic | 3 / 20 `██░░░░░░░░` |
+| [Day 1](#day-1) | Core patterns: the first problem of each topic | 4 / 20 `██░░░░░░░░` |
 | [Day 2](#day-2) | Next layer: standard follow-ups in each topic | 1 / 20 `░░░░░░░░░░` |
 | [Day 3](#day-3) | Harder classics: finish the interview set | 3 / 20 `██░░░░░░░░` |
 
@@ -14,7 +14,7 @@
 
 ## Day 1
 
-_Core patterns: the first problem of each topic_ · **3 / 20** done
+_Core patterns: the first problem of each topic_ · **4 / 20** done
 
 | | # | Problem | Topic | Difficulty | Done on | Code |
 |:-:|--:|---|---|---|---|---|
@@ -36,7 +36,7 @@ _Core patterns: the first problem of each topic_ · **3 / 20** done
 | ⬜ | 16 | [Implement Trie Prefix Tree](https://neetcode.io/problems/implement-prefix-tree) 🆕 | Tries | 🟡 Medium |  |  |
 | ⬜ | 17 | [Clone Graph](https://neetcode.io/problems/clone-graph) 🆕 | Graphs | 🟡 Medium |  |  |
 | ⬜ | 18 | [Unique Paths](https://neetcode.io/problems/count-paths) 🆕 | 2-D Dynamic Programming | 🟡 Medium |  |  |
-| ⬜ | 19 | [Maximum Subarray](https://neetcode.io/problems/maximum-subarray) | Greedy | 🟡 Medium |  | [old](Data%20Structures%20%26%20Algorithms/maximum-subarray/submission-2.py) |
+| ✅ | 19 | **[Maximum Subarray](https://neetcode.io/problems/maximum-subarray)** | Greedy | 🟡 Medium | 28 Nov, 00:42 | [old](Data%20Structures%20%26%20Algorithms/maximum-subarray/submission-2.py) · [new](Data%20Structures%20%26%20Algorithms/maximum-subarray/submission-4.py) |
 | ⬜ | 20 | [Same Tree](https://neetcode.io/problems/same-binary-tree) | Trees | 🟢 Easy |  | [old](Data%20Structures%20%26%20Algorithms/same-binary-tree/submission-0.py) |
 
 ## Day 2
@@ -115,7 +115,7 @@ _Harder classics: finish the interview set_ · **3 / 20** done
 | Graphs | 0 / 6 `░░░░░░░░░░` |
 | 1-D Dynamic Programming | 1 / 9 `█░░░░░░░░░` |
 | 2-D Dynamic Programming | 0 / 2 `░░░░░░░░░░` |
-| Greedy | 0 / 2 `░░░░░░░░░░` |
+| Greedy | 1 / 2 `█████░░░░░` |
 | Intervals | 0 / 4 `░░░░░░░░░░` |
 | Math & Geometry | 0 / 3 `░░░░░░░░░░` |
 
